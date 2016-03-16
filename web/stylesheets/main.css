@@ -46,15 +46,9 @@ body {
 
 .items ul{
 
-    -webkit-column-count: 4; /* Chrome, Safari, Opera */
-    -moz-column-count: 4; /* Firefox */
-    column-count: 4;
-
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
-
     list-style-type: none;
+    margin: 0 auto;
+    text-align: left;
 
 }
 
@@ -62,6 +56,12 @@ body {
   width: 100px;
   height: 100px;
   border: 1px solid red;
-  margin-top: 20px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
   
+}
+
+.items img{
+  width: 100%;
 }
