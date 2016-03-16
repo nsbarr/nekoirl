@@ -40,7 +40,7 @@
 }
 
 body {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@ body {
 .items li{
   width: 164px;
   height: 164px;
-  border: 1px solid red;
+  border: 0px solid red;
   margin: 20px;
   display: inline-block;
   vertical-align: top;
