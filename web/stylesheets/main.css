@@ -117,12 +117,15 @@ body{
 
 .price p{
   position: relative;
-  bottom: 48;
+  bottom: 40;
   color: #333;
-  font-size: 24px;
-  text-decoration: none;
+  font-size: 20px;
 }
 
 .price a{
+  text-decoration: none;
+}
 
+.price a:hover{
+  text-decoration: none;
 }
