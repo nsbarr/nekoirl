@@ -58,6 +58,13 @@
   
 }
 
+.items p{
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 200px;
+  color: #444;
+}
+
 .items img{
   width: 100%;
 }
