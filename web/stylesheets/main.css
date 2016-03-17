@@ -65,3 +65,7 @@ body {
 .items img{
   width: 100%;
 }
+
+html{
+  background: url(/images/pattern.png) no-repeat center center fixed;
+}
