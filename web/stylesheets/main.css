@@ -89,17 +89,6 @@ a:hover{
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .price p{
-      color: red;
-    }
-}
-
-
-@media only screen 
-  and (min-device-width: 320px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
@@ -127,8 +116,6 @@ a:hover{
       font-size: 40px;
       display: none;
     }
-
-
 
     .items li{
       width: 40%;
