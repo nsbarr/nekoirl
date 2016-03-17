@@ -121,7 +121,7 @@ body{
 }
 
 .price a{
-  color: #333;
-  font-size: 24px;
-  text-decoration: none;
+  color: #333 !important;
+  font-size: 24px !important;
+  text-decoration: none !important;
 }
