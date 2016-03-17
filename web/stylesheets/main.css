@@ -64,6 +64,8 @@
   font-weight: lighter;
   color: red;
   text-align: center;
+  position: relative;
+  bottom: 38
 }
 
 .items img{
