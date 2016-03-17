@@ -116,5 +116,10 @@ body{
 }
 
 .price{
+  position: relative;
   bottom: 40;
+}
+
+.price p{
+  color: gold;
 }
