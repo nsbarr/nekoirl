@@ -115,7 +115,7 @@ body{
   top:100;
 }
 
-.price a{
+.price p{
   position: relative;
   bottom: 48;
   color: #333;
