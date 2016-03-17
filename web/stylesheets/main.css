@@ -134,4 +134,8 @@ a:hover{
   .items{
     width: 100%;
   }
+
+  .price p{
+    color: #000;
+  }
 }
