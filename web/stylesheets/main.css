@@ -81,7 +81,7 @@ html{
 }
 
 h5{
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Arial', 'Helvetica', Arial, sans-serif;
   font-size: 18px;
   font-weight: 200px;
 }
@@ -144,9 +144,14 @@ a:hover{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+    .items p{
+      font-size: 28px;
+      position: relative;
+      bottom: 62px 
+    }
 
     .price p{
-      bottom: 40;
+      bottom: 88;
       color: red;
       font-size: 40px;
     }
@@ -162,16 +167,27 @@ a:hover{
     .header h3{
       position:relative;
       font-size: 40px;
+      display: none;
     }
+
+
 
     .items li{
       width: 40%;
       height: 240px;
       border: 0px solid red;
-      margin: 60px;
-      margin-bottom: 80px;
+      margin: 40px;
+      margin-bottom: 140px;
       display: inline-block;
       vertical-align: top;
-}
+
+    }
+
+
+    h5{
+      font-family: "Arial";
+      font-size: 20px;
+      padding-top: 20px;
+    }
 
 }
