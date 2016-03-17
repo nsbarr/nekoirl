@@ -93,7 +93,6 @@ body{
   padding-right: 10px;
   max-width: 1000px;
   margin: 0 auto;
-  min-width: 400px;
 }
 
 #shop{
@@ -130,12 +129,12 @@ a:hover{
 }
 
 
-@media all and (max-width: 699px) {
-  .items{
-    width: 100%;
-  }
-
-  .price p{
-    color: #000;
-  }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .price p{
+      color: red;
+    }
 }
