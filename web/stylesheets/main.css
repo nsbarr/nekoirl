@@ -118,10 +118,11 @@ body{
 .price{
   position: relative;
   bottom: 48;
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
 }
 
 .price a{
-  color: #333 !important;
-  font-size: 24px !important;
-  text-decoration: none !important;
+
 }
