@@ -66,6 +66,17 @@ body {
   width: 100%;
 }
 
+h3{
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 800px;
+}
 html{
   background: url(/images/pattern.png) no-repeat center center fixed;
+}
+
+h5{
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 200px;
 }
