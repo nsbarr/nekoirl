@@ -98,6 +98,7 @@ body{
   position: absolute;
   top:30px;
   right:0;
+  display:none;
 }
 
 #logo{
@@ -152,7 +153,6 @@ a:hover{
 
     .price p{
       bottom: 88;
-      color: red;
       font-size: 40px;
     }
 
@@ -189,5 +189,10 @@ a:hover{
       font-size: 20px;
       padding-top: 20px;
     }
+}
 
+@media only screen and (min-device-width: 1300px) {
+    body {
+        min-width: 490px;
+    }
 }
