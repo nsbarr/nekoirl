@@ -114,3 +114,7 @@ body{
   position:absolute;
   top:100;
 }
+
+.price{
+  bottom: 40;
+}
