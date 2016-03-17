@@ -40,8 +40,9 @@ html{
 
 h5{
   font-family: 'Arial', 'Helvetica', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 200px;
+  text-align: center;
 }
 
 body{
