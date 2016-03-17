@@ -55,7 +55,6 @@
   margin: 20px;
   display: inline-block;
   vertical-align: top;
-  
 }
 
 .items p{
@@ -149,5 +148,14 @@ a:hover{
     .price p{
       color: red;
     }
+
+    .items li{
+      width: 40%;
+      height: 240px;
+      border: 0px solid red;
+      margin: 20px;
+      display: inline-block;
+      vertical-align: top;
+}
 
 }
