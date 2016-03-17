@@ -63,6 +63,7 @@
   font-size: 18px;
   font-weight: lighter;
   color: red;
+  text-align: center;
 }
 
 .items img{
@@ -72,7 +73,7 @@
 h3{
   font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 24px;
-  font-weight: 800px;
+  font-weight: bold;
 }
 html{
   background: url(/images/pattern.png) repeat center center;
@@ -93,9 +94,18 @@ body{
 }
 
 #shop{
-
+  position: absolute;
+  top:0;
+  right:0;
 }
 
 #logo{
+  position: absolute;
+  top:0;
+  left:0;
+}
 
+.header h3{
+  position:absolute;
+  top:100;
 }
