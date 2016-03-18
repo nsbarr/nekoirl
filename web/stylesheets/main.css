@@ -29,9 +29,13 @@
   width: 100%;
 }
 
+h1{
+  padding-top: 20px;
+}
+
 h3{
   font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: bold;
 }
 html{
@@ -40,7 +44,7 @@ html{
 
 h5{
   font-family: 'Arial', 'Helvetica', Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 200px;
   text-align: center;
 }
@@ -88,15 +92,15 @@ a:hover{
 }
 
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait) {
     .items p{
       font-size: 28px;
       position: relative;
-      bottom: 62px 
+      bottom: 62px
     }
 
     .price p{
