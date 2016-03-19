@@ -126,6 +126,18 @@ a:hover{
       padding-right: 50px;
     }
 
+    #ritzybiz img:hover{
+
+    }
+
+    #deluxetunabitz img:hover{
+      background-image: url('images/item-deluxetunabitz-real.png');
+    }
+
+    #bonitobitz img:hover{
+
+    }
+
     .header h3{
       position:relative;
       padding-top: 15px;
