@@ -129,13 +129,14 @@ a:hover{
     #ritzybiz a:hover{
     }
 
-    #deluxetunabitz-irl{
+    .irl{
       display:none;
     }
-    li:hover #deluxetunabitz-irl{
+
+    li:hover .irl{
       display:block;
     }
-    li:hover #deluxetunabitz-fake{
+    li:hover .fake{
       display:none;
     }
 
