@@ -127,15 +127,19 @@ a:hover{
     }
 
     #ritzybiz a:hover{
-
     }
 
-    #deluxetunabitz a:hover{
-      background-image: url('images/item-deluxetunabitz-real.png');
+    #deluxetunabitz-irl{
+      display:none;
+    }
+    li:hover #deluxetunabitz-irl{
+      display:block;
+    }
+    li:hover #deluxetunabitz-fake{
+      display:none;
     }
 
     #bonitobitz a:hover{
-
     }
 
     .header h3{
