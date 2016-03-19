@@ -1,9 +1,8 @@
 .items ul{
-
     list-style-type: none;
     margin: 0 auto;
-    text-align: left;
-
+    text-align: center;
+    padding: 0;
 }
 
 .items li{
@@ -68,7 +67,8 @@ body{
 
 .header{
   position:relative;
-  height: 160px;
+  height: 200px;
+  margin-top:50px;
 }
 .header h3{
   position:absolute;
@@ -126,9 +126,7 @@ a:hover{
       margin-bottom: 140px;
       display: inline-block;
       vertical-align: top;
-
     }
-
 
     h5{
       font-family: "Arial";
@@ -137,7 +135,8 @@ a:hover{
     }
 }
 
-@media only screen and (min-device-width: 1300px) {
+@media only screen
+and (min-device-width: 1300px) {
     body {
         min-width: 490px;
     }
