@@ -115,7 +115,7 @@ a:hover{
     .header h3{
       position:relative;
       font-size: 40px;
-      display: none;
+      /*display: none;*/
     }
 
     .items li{
