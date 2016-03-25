@@ -28,7 +28,7 @@
   width: 100%;
 }
 h2{
-  font-family: 'Arial Rounded', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Arial Rounded MT', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 21px;
 }
 h3{
@@ -167,6 +167,10 @@ li:hover .fake{
       margin-bottom: 140px;
       display: inline-block;
       vertical-align: top;
+    }
+
+    .description{
+      width: 90%;
     }
 
     h5{
