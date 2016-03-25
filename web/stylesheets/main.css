@@ -87,7 +87,6 @@ body{
 }
 
 .description{
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -170,10 +169,6 @@ li:hover .fake{
       margin-bottom: 140px;
       display: inline-block;
       vertical-align: top;
-    }
-
-    .description{
-      width: 90%;
     }
 
     h5{
